@@ -12,6 +12,11 @@ export default {
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],
       },
+      colors: {
+        primaryBg: "#FFFFFF",
+        primaryText: "#000000",
+        primarySide: "#9ca3af",
+      }
     },
   },
   plugins: [],

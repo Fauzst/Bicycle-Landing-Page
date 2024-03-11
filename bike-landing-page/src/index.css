@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/*Fonts*/
+@layer base {
+    :root {
+        --bg-primary: #FFFFFF;
+        --text-primary: #000000;
+        --side-bg-primary: #9ca3af;
+
+    }
+}
+/*Colors*/
