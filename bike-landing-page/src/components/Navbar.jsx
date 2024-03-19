@@ -25,7 +25,7 @@ function Navbar(){
               <div>
                   <div className='flex items-center'>
                     <div className='xl:invisible lg:invisible md:invisible sm:visible phone:visible'>
-                      <FontAwesomeIcon icon={faBars} onClick={handleMenuClick}/>
+                      <FontAwesomeIcon icon={faBars} onClick={handleMenuClick} className={isActive ? 'text-yellow-400 animate-onespinonly' : 'text-black animate-backspinonly'} />
                     </div>
                       <img src={logo} alt='logo' className='h-12 w-10'></img>
                     </div>
