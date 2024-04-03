@@ -12,13 +12,14 @@ import './App.css'
 
 function App() {
   return (
-    <div className='block h-[1000px]'>
+    <div className=''>
       <Navbar />
-      <Body />
+      <div className='pt-12'>
       <Hero />
       <Bikes />
       <Accessories />
       <About />
+      </div>
     </div>
   )
 }
