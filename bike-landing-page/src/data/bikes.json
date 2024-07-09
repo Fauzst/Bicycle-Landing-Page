@@ -1,0 +1,51 @@
+[
+    {
+        "id" : 1,
+        "name": "Trek Dominance",
+        "price": "$3,000",
+        "rating": 4,
+        "image": "./images/trek.png"
+    },
+    {
+        "id" : 2,
+        "name": "Specialized Roubaix Expert",
+        "price": "$4,500",
+        "rating": 5,
+        "image": "./images/specialized.jpeg"
+    },
+    {
+        "id" : 3,
+        "name": "Giant Defy Advanced Pro",
+        "price": "$3,800",
+        "rating": 4,
+        "image": "./images/giant.jpeg"
+    },
+    {
+        "id" : 4,
+        "name": "Cannondale Synapse Carbon Disc Ultegra",
+        "price": "$3,400",
+        "rating": 4,
+        "image": "./images/cannondale.jpeg"
+    },
+    {
+        "id" : 5,
+        "name": "Santa Cruz Stigmata",
+        "price": "$4,200",
+        "rating": 4,
+        "image": "./images/stacruz.jpeg"
+    },
+    {
+        "id" : 6,
+        "name": "Bianchi Infinito CV Ultegra",
+        "price": "$4,000",
+        "rating": 4,
+        "image": "./images/bianchi.jpg"
+    },
+    {
+        "id" : 7,
+        "name": "Scott Addict RC 30",
+        "price": "$3,600",
+        "rating": 4,
+        "image": "./images/scott.png"
+    }
+]

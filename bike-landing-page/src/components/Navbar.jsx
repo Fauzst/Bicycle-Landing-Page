@@ -26,7 +26,7 @@ function Navbar(){
     const [openShop, setOpenShop] = useState(false);
     function handleShopClick(){
         setOpenShop(!openShop)
-        
+      
     }
 
     return (
@@ -73,11 +73,14 @@ function Navbar(){
                     <li className='mb-4'>Dark Mode</li>
                 </ul>
             </div>
-            <div className={openShop ? 'bg-red-400 absolute -top-[288px] left-[45%] h-[100vw] w-[35%] lg:left-[70%] lg:w-[30%] md:top-[64px] md:w-[60%] md:left-[40%] phone:w-[90%] phone:top-[64px] pt-8 phone:left-[20%] phone:h-[700px]' : 'bg-red-400 relative -top-[288px] left-[200%] h-[100vw] w-[350px]'}>
-              <div className="flex flex-col justify-evenly gap-4 items-center ">
+            <div className={openShop ? 'bg-slate-50 border-[1px] absolute -top-[288px] left-[45%] h-[100vw] w-[35%] lg:left-[70%] lg:w-[30%] md:top-[64px] md:w-[60%] md:left-[40%] phone:w-[80%] phone:top-[64px] pt-8 phone:left-[20%] phone:h-[700px]' : 'bg-red-400 relative -top-[288px] left-[200%] h-[100vw] w-[350px]'}>
+              <div className="flex flex-col justify-start gap-4 items-center relative h-[90%] bg-slate-50">
                 <ShopCard />
                 <ShopCard />
                 <ShopCard />
+              </div>
+              <div>
+                <button className="h-[70px] w-full relative bg-yellow-300">Buy Now</button>
               </div>
             </div>
         </nav> 

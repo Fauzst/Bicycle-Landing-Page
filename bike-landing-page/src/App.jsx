@@ -15,10 +15,10 @@ function App() {
     <div className=''>
       <Navbar />
       <div className='pt-12'>
-      <Hero />
-      <Bikes />
-      <Accessories />
-      <About />
+      <Hero id="hero"/>
+      <Bikes id="bikes"/>
+      <Accessories id="accessories"/>
+      <About id="about"/>
       </div>
     </div>
   )

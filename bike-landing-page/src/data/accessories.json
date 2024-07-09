@@ -1,0 +1,30 @@
+[
+    {
+        "id" : 8,
+        "name": "Helmet",
+        "price": "$300",
+        "rating": 4,
+        "image": "./images/helmet.jpg"
+    },
+    {
+        "id" : 9,
+        "name": "Gloves",
+        "price": "$100",
+        "rating": 3.5,
+        "image": "./images/gloves.jpg"
+    },
+    {
+        "id" : 10,
+        "name": "Jersey",
+        "price": "$250",
+        "rating": 4,
+        "image": "./images/jersey.jpg"
+    },
+    {
+        "id" : 11,
+        "name": "Water Bottle",
+        "price": "$50",
+        "rating": 5,
+        "image": "./images/water.jpg"
+    }
+]
